@@ -31,3 +31,21 @@ var speakersInMil = getColumn(url,3);
 var percent = getColumn(url,4);
 var langFamily = getColumn(url,5);
 var branch = getColumn(url,6);
+
+//takes a language family and returns the languages spoken in that family
+function getLanguageFromFamily(family){
+  var fam = [];
+for(var i = 0; i < langFamily.length; i++){
+  if(langFamily[i].toLowerCase().includes(family.toLowerCase())){
+      fam.push(language[i]);
+    }
+  }
+if(fam.length > 0){
+return fam;
+}
+else{
+  fam.push("This Language Family Does Not Exist")
+  return fam;
+}
+}
+// console.log(getLanguageFromFamily("Sino-Tibetan")); 

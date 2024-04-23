@@ -10,7 +10,7 @@
 #
 #### function getSpeakersFromLanguage(languages) takes language as a parameter and returns the number of speakers in millions
 #### console.log(getSpeakersFromLanguage("")) is where the user imputs their chosen language. The user should put a language between the quotations
-####It should return the number of speakers in millions in that language
+#### It should return the number of speakers in millions in that language
 #
 #### function getLanguageRank(ranks) takes a languages and returns the rank it has based on how many people speak it
 #### console.log(getLanguageRank("")) is where the user imputs their chosen language. The user should put a language between the quotations

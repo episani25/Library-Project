@@ -79,7 +79,7 @@ else{
 //Takes language as a parameter and returns the number of speakers in millions
 function getSpeakersFromLanguage(languages){
   var lang = "that language does not exist";
-for(var i = 0; i < languages.length; i++){
+for(var i = 0; i < language.length; i++){
   if(language[i].toLowerCase().includes(languages.toLowerCase())){
       lang = (speakersInMil[i]);
     }

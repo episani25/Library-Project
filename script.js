@@ -120,4 +120,5 @@ function getPercentageWorld(percentage) {
   else{
     match3.push("This Amount Does Not Exist")
 }
+}
 console.log(getPercentageWorld("918"))

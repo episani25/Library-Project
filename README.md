@@ -21,8 +21,8 @@
 #### return the rank (a number) that the chosen language is
 *`function getLanguageRank(ranks)`*
 #
-#### function getPercentageWorld(percentage) takes the speakers in millions as a parameter and returns what percentage of the world they are
+#### function getLanguagesByPopularity(percentage) takes a percentage of world population as a parameter, and returns a list of languages that have at least that amount of speakers
 #### percentage (number) - the desired percentage of the world
-#### return the percentage (a number) of the world those speakers contains
+#### return the languages (string) that have at least that amount
 *`function getPercentageWorld(percentage)`*
 #
